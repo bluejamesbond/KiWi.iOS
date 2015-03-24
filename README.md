@@ -1,4 +1,4 @@
-Bolt.iOS
+KiWi.iOS
 ========
 
-The iOS app for Bolt Smart Lock System
+The iOS app for KiWi Smart Lock System
