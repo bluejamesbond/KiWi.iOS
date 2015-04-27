@@ -9,4 +9,6 @@
 
 @interface SidebarViewController : UITableViewController
 
+@property (weak, nonatomic) UIColor* backgroundColor;
+
 @end

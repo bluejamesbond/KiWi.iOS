@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[SettingsViewController viewDidLoad]:SettingsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[user objectAtIndex:0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[WelcomeViewController viewDidLoad]:WelcomeViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[LogInPageViewController checkLoginResponse:]:LogInPageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "authenticatedToken.length">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[WelcomeViewController viewDidAppear:]:WelcomeViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AccountViewController doClear:]:AccountViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sender.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MainViewController longPress:]:MainViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.lockButton.titleLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SidebarViewController tableView:cellForRowAtIndexPath:]:SidebarViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MainViewController connection:didReceiveData:]:MainViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[myLock objectForKey:@&quot;enabled&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

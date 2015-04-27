@@ -7,27 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C0514F861AAD1AC400605BB7 /* KiWiLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C0514F851AAD1AC400605BB7 /* KiWiLogo.png */; };
-		C0514F881AAD23FF00605BB7 /* KiWiLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = C0514F871AAD23FF00605BB7 /* KiWiLogoWhite.png */; };
-		C062A2531ABFD00C00BD85C6 /* menu2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C062A2521ABFD00C00BD85C6 /* menu2x.png */; };
+		C031633A1AD60F8800848FFF /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03163391AD60F8800848FFF /* SettingsViewController.m */; };
+		C0383A421AECB88B00F4E09E /* newlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C0383A411AECB88B00F4E09E /* newlogo.png */; };
+		C0383A441AECBAAC00F4E09E /* logo-6withoutlettersmediumres.png in Resources */ = {isa = PBXBuildFile; fileRef = C0383A431AECBAAC00F4E09E /* logo-6withoutlettersmediumres.png */; };
+		C0383A451AECBAAC00F4E09E /* logo-6withoutlettersmediumres.png in Resources */ = {isa = PBXBuildFile; fileRef = C0383A431AECBAAC00F4E09E /* logo-6withoutlettersmediumres.png */; };
+		C0383A471AECBB5C00F4E09E /* logo-6withoutlettershighres.png in Resources */ = {isa = PBXBuildFile; fileRef = C0383A461AECBB5C00F4E09E /* logo-6withoutlettershighres.png */; };
+		C0383A481AECBB5C00F4E09E /* logo-6withoutlettershighres.png in Resources */ = {isa = PBXBuildFile; fileRef = C0383A461AECBB5C00F4E09E /* logo-6withoutlettershighres.png */; };
+		C0383A4A1AECBF8E00F4E09E /* logo-6appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C0383A491AECBF8E00F4E09E /* logo-6appicon.png */; };
+		C0383A4C1AEDD20A00F4E09E /* UserProfileDefaultDark.png in Resources */ = {isa = PBXBuildFile; fileRef = C0383A4B1AEDD20A00F4E09E /* UserProfileDefaultDark.png */; };
+		C0383A4E1AEDD52600F4E09E /* 2pxWidthLineImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C0383A4D1AEDD52600F4E09E /* 2pxWidthLineImage.png */; };
+		C0383A521AEDF41700F4E09E /* backward4.png in Resources */ = {isa = PBXBuildFile; fileRef = C0383A511AEDF41700F4E09E /* backward4.png */; };
+		C0383A551AEDF4D100F4E09E /* ShareKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0383A541AEDF4D100F4E09E /* ShareKeyViewController.m */; };
+		C0383A571AEDF7B100F4E09E /* FriendListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0383A561AEDF7B100F4E09E /* FriendListCell.xib */; };
+		C0383A591AEDFB6000F4E09E /* key83.png in Resources */ = {isa = PBXBuildFile; fileRef = C0383A581AEDFB6000F4E09E /* key83.png */; };
+		C0383A5B1AEDFD1200F4E09E /* keys.png in Resources */ = {isa = PBXBuildFile; fileRef = C0383A5A1AEDFD1200F4E09E /* keys.png */; };
+		C0383A5E1AEDFEAF00F4E09E /* FriendListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0383A5D1AEDFEAF00F4E09E /* FriendListCell.m */; };
+		C045EE1E1ACC86710073BF23 /* Mark Simonson - Proxima Nova Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C045EE0A1ACC86690073BF23 /* Mark Simonson - Proxima Nova Black Italic.otf */; };
+		C045EE1F1ACC86710073BF23 /* Mark Simonson - Proxima Nova Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = C045EE0B1ACC86690073BF23 /* Mark Simonson - Proxima Nova Black.otf */; };
+		C045EE201ACC86710073BF23 /* Mark Simonson - Proxima Nova Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C045EE0C1ACC86690073BF23 /* Mark Simonson - Proxima Nova Bold Italic.otf */; };
+		C045EE211ACC86710073BF23 /* Mark Simonson - Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C045EE0D1ACC86690073BF23 /* Mark Simonson - Proxima Nova Bold.otf */; };
+		C045EE221ACC86710073BF23 /* Mark Simonson - Proxima Nova Extrabold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C045EE0E1ACC86690073BF23 /* Mark Simonson - Proxima Nova Extrabold Italic.otf */; };
+		C045EE231ACC86710073BF23 /* Mark Simonson - Proxima Nova Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C045EE0F1ACC86690073BF23 /* Mark Simonson - Proxima Nova Extrabold.otf */; };
+		C045EE241ACC86710073BF23 /* Mark Simonson - Proxima Nova Semibold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C045EE101ACC86690073BF23 /* Mark Simonson - Proxima Nova Semibold Italic.otf */; };
+		C045EE251ACC86710073BF23 /* Mark Simonson - Proxima Nova Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C045EE111ACC86690073BF23 /* Mark Simonson - Proxima Nova Semibold.otf */; };
+		C045EE261ACC86710073BF23 /* Mark Simonson - Proxima Nova Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C045EE121ACC86690073BF23 /* Mark Simonson - Proxima Nova Thin Italic.otf */; };
+		C045EE271ACC86710073BF23 /* Mark Simonson - Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = C045EE131ACC86690073BF23 /* Mark Simonson - Proxima Nova Thin.otf */; };
+		C045EE2C1ACC88770073BF23 /* KiWiWhiteSpacePinkLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C045EE2B1ACC88770073BF23 /* KiWiWhiteSpacePinkLogo.png */; };
+		C045EE2F1ACC8A0B0073BF23 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C045EE2E1ACC8A0B0073BF23 /* WelcomeViewController.m */; };
 		C062A2551ABFD18100BD85C6 /* Menu-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C062A2541ABFD18100BD85C6 /* Menu-50.png */; };
-		C06530551A91799D003AFFE0 /* ToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06530541A91799D003AFFE0 /* ToDoListViewController.m */; };
-		C075963E1A492B4600E7C7DD /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C075963D1A492B4600E7C7DD /* AddToDoItemViewController.m */; };
-		C07596411A492BD900E7C7DD /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07596401A492BD900E7C7DD /* ToDoListTableViewController.m */; };
-		C07596441A4D0A0A00E7C7DD /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C07596431A4D0A0A00E7C7DD /* ToDoItem.m */; };
+		C06B79091AC383C10022A672 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06B79081AC383C10022A672 /* AccountViewController.m */; };
+		C06B790E1AC3DADC0022A672 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C06B790D1AC3DADC0022A672 /* SRWebSocket.m */; };
+		C06B79101AC3DFB70022A672 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C06B790F1AC3DFB70022A672 /* libicucore.dylib */; };
+		C06B79121AC3DFD50022A672 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06B79111AC3DFD50022A672 /* CFNetwork.framework */; };
+		C06B79141AC3DFDD0022A672 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06B79131AC3DFDD0022A672 /* Security.framework */; };
+		C06B79161AC3DFE20022A672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06B79151AC3DFE20022A672 /* Foundation.framework */; };
 		C0778F2C1ABF84990070F0BD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0778F2B1ABF84990070F0BD /* SWRevealViewController.m */; };
 		C0778F2F1ABF89C90070F0BD /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0778F2E1ABF89C90070F0BD /* SidebarViewController.m */; };
 		C0778F321ABF8C230070F0BD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0778F311ABF8C230070F0BD /* MainViewController.m */; };
-		C0778F341ABF8FE10070F0BD /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = C0778F331ABF8FE10070F0BD /* menu.png */; };
+		C078801A1AD6720E00FF6C10 /* ClearIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C07880191AD6720E00FF6C10 /* ClearIcon.png */; };
 		C08209A31A625E9F00DE47C3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0B4591A1A43957500BB9C64 /* Info.plist */; };
 		C08209A91A6398DD00DE47C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08209A81A6398DD00DE47C3 /* Images.xcassets */; };
 		C08209AB1A639C3100DE47C3 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C08209AA1A639C3100DE47C3 /* Launch Screen.xib */; };
-		C09A0F801A9283E200EF02C6 /* MyLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A0F7F1A9283E200EF02C6 /* MyLocationViewController.m */; };
+		C091F32F1ACD06E700CF17A8 /* delete8.png in Resources */ = {isa = PBXBuildFile; fileRef = C091F32E1ACD06E700CF17A8 /* delete8.png */; };
+		C091F3311ACD07B200CF17A8 /* WhiteDeleteIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C091F3301ACD07B200CF17A8 /* WhiteDeleteIcon.png */; };
+		C091F3341ACD1D8D00CF17A8 /* SignUpPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C091F3331ACD1D8D00CF17A8 /* SignUpPageViewController.m */; };
+		C091F3381AD09E9B00CF17A8 /* KiWiAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C091F3371AD09E9B00CF17A8 /* KiWiAppIcon.png */; };
+		C091F33A1AD09F4400CF17A8 /* KiWiWhiteSpaceLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = C091F3391AD09F4400CF17A8 /* KiWiWhiteSpaceLogoWhite.png */; };
+		C091F3401AD1F3B500CF17A8 /* UnlockIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C091F33E1AD1F3B500CF17A8 /* UnlockIcon.png */; };
+		C091F3411AD1F3B500CF17A8 /* LockIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C091F33F1AD1F3B500CF17A8 /* LockIcon.png */; };
+		C091F3431AD33FB400CF17A8 /* UserProfileDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = C091F3421AD33FB400CF17A8 /* UserProfileDefault.png */; };
+		C091F3451AD3418E00CF17A8 /* LogViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C091F3441AD3418E00CF17A8 /* LogViewCell.xib */; };
+		C091F3481AD345F000CF17A8 /* LogViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C091F3471AD345F000CF17A8 /* LogViewCell.m */; };
+		C091F34B1AD3725800CF17A8 /* UserSideBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C091F34A1AD3725800CF17A8 /* UserSideBarCell.m */; };
+		C091F34D1AD3729100CF17A8 /* UserSideBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C091F34C1AD3729100CF17A8 /* UserSideBarCell.xib */; };
+		C09A0F801A9283E200EF02C6 /* MyKiwisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A0F7F1A9283E200EF02C6 /* MyKiwisViewController.m */; };
 		C09A0F821A92845D00EF02C6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09A0F811A92845D00EF02C6 /* CoreLocation.framework */; };
 		C09A0F841A96F66600EF02C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09A0F831A96F66600EF02C6 /* MapKit.framework */; };
+		C0A5FCC01AD8959500A6BB62 /* MyStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0A5FCBE1AD8959500A6BB62 /* MyStore.xcdatamodeld */; };
+		C0A5FCC21AD9C3F200A6BB62 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A5FCC11AD9C3F200A6BB62 /* CoreData.framework */; };
 		C0B4591C1A43957500BB9C64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B4591B1A43957500BB9C64 /* main.m */; };
 		C0B4591F1A43957500BB9C64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B4591E1A43957500BB9C64 /* AppDelegate.m */; };
 		C0B459361A43957500BB9C64 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B459351A43957500BB9C64 /* ToDoListTests.m */; };
+		C0D2A63B1ACCFDDD00426EF4 /* LogInPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D2A63A1ACCFDDD00426EF4 /* LogInPageViewController.m */; };
+		C0D2A63E1ACCFEE300426EF4 /* GlobalVars.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D2A63D1ACCFEE300426EF4 /* GlobalVars.m */; };
+		C0DDBCF81AEB814E00A72D94 /* TransparentToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DDBCF71AEB814E00A72D94 /* TransparentToolbar.m */; };
 		C0FEA4A01A43BD080035A53C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FEA49F1A43BD080035A53C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -42,31 +85,75 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C0514F851AAD1AC400605BB7 /* KiWiLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KiWiLogo.png; sourceTree = "<group>"; };
-		C0514F871AAD23FF00605BB7 /* KiWiLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KiWiLogoWhite.png; sourceTree = "<group>"; };
-		C062A2521ABFD00C00BD85C6 /* menu2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu2x.png; sourceTree = "<group>"; };
+		C03163381AD60F8800848FFF /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		C03163391AD60F8800848FFF /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		C0383A411AECB88B00F4E09E /* newlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newlogo.png; sourceTree = "<group>"; };
+		C0383A431AECBAAC00F4E09E /* logo-6withoutlettersmediumres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-6withoutlettersmediumres.png"; sourceTree = "<group>"; };
+		C0383A461AECBB5C00F4E09E /* logo-6withoutlettershighres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-6withoutlettershighres.png"; sourceTree = "<group>"; };
+		C0383A491AECBF8E00F4E09E /* logo-6appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-6appicon.png"; sourceTree = "<group>"; };
+		C0383A4B1AEDD20A00F4E09E /* UserProfileDefaultDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserProfileDefaultDark.png; sourceTree = "<group>"; };
+		C0383A4D1AEDD52600F4E09E /* 2pxWidthLineImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2pxWidthLineImage.png; sourceTree = "<group>"; };
+		C0383A511AEDF41700F4E09E /* backward4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backward4.png; sourceTree = "<group>"; };
+		C0383A531AEDF4D100F4E09E /* ShareKeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareKeyViewController.h; sourceTree = "<group>"; };
+		C0383A541AEDF4D100F4E09E /* ShareKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareKeyViewController.m; sourceTree = "<group>"; };
+		C0383A561AEDF7B100F4E09E /* FriendListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendListCell.xib; sourceTree = "<group>"; };
+		C0383A581AEDFB6000F4E09E /* key83.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key83.png; sourceTree = "<group>"; };
+		C0383A5A1AEDFD1200F4E09E /* keys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keys.png; sourceTree = "<group>"; };
+		C0383A5C1AEDFEAF00F4E09E /* FriendListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendListCell.h; sourceTree = "<group>"; };
+		C0383A5D1AEDFEAF00F4E09E /* FriendListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendListCell.m; sourceTree = "<group>"; };
+		C045EE0A1ACC86690073BF23 /* Mark Simonson - Proxima Nova Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mark Simonson - Proxima Nova Black Italic.otf"; path = "../../../Library/Fonts/Mark Simonson - Proxima Nova Black Italic.otf"; sourceTree = "<group>"; };
+		C045EE0B1ACC86690073BF23 /* Mark Simonson - Proxima Nova Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mark Simonson - Proxima Nova Black.otf"; path = "../../../Library/Fonts/Mark Simonson - Proxima Nova Black.otf"; sourceTree = "<group>"; };
+		C045EE0C1ACC86690073BF23 /* Mark Simonson - Proxima Nova Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mark Simonson - Proxima Nova Bold Italic.otf"; path = "../../../Library/Fonts/Mark Simonson - Proxima Nova Bold Italic.otf"; sourceTree = "<group>"; };
+		C045EE0D1ACC86690073BF23 /* Mark Simonson - Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mark Simonson - Proxima Nova Bold.otf"; path = "../../../Library/Fonts/Mark Simonson - Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		C045EE0E1ACC86690073BF23 /* Mark Simonson - Proxima Nova Extrabold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mark Simonson - Proxima Nova Extrabold Italic.otf"; path = "../../../Library/Fonts/Mark Simonson - Proxima Nova Extrabold Italic.otf"; sourceTree = "<group>"; };
+		C045EE0F1ACC86690073BF23 /* Mark Simonson - Proxima Nova Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mark Simonson - Proxima Nova Extrabold.otf"; path = "../../../Library/Fonts/Mark Simonson - Proxima Nova Extrabold.otf"; sourceTree = "<group>"; };
+		C045EE101ACC86690073BF23 /* Mark Simonson - Proxima Nova Semibold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mark Simonson - Proxima Nova Semibold Italic.otf"; path = "../../../Library/Fonts/Mark Simonson - Proxima Nova Semibold Italic.otf"; sourceTree = "<group>"; };
+		C045EE111ACC86690073BF23 /* Mark Simonson - Proxima Nova Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mark Simonson - Proxima Nova Semibold.otf"; path = "../../../Library/Fonts/Mark Simonson - Proxima Nova Semibold.otf"; sourceTree = "<group>"; };
+		C045EE121ACC86690073BF23 /* Mark Simonson - Proxima Nova Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mark Simonson - Proxima Nova Thin Italic.otf"; path = "../../../Library/Fonts/Mark Simonson - Proxima Nova Thin Italic.otf"; sourceTree = "<group>"; };
+		C045EE131ACC86690073BF23 /* Mark Simonson - Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mark Simonson - Proxima Nova Thin.otf"; path = "../../../Library/Fonts/Mark Simonson - Proxima Nova Thin.otf"; sourceTree = "<group>"; };
+		C045EE2B1ACC88770073BF23 /* KiWiWhiteSpacePinkLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = KiWiWhiteSpacePinkLogo.png; path = ../../../Desktop/KiWiWhiteSpacePinkLogo.png; sourceTree = "<group>"; };
+		C045EE2D1ACC8A0B0073BF23 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WelcomeViewController.h; path = ../WelcomeViewController.h; sourceTree = "<group>"; };
+		C045EE2E1ACC8A0B0073BF23 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WelcomeViewController.m; path = ../WelcomeViewController.m; sourceTree = "<group>"; };
 		C062A2541ABFD18100BD85C6 /* Menu-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu-50.png"; sourceTree = "<group>"; };
-		C06530531A91799D003AFFE0 /* ToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListViewController.h; sourceTree = "<group>"; };
-		C06530541A91799D003AFFE0 /* ToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListViewController.m; sourceTree = "<group>"; };
-		C075963C1A492B4600E7C7DD /* AddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoItemViewController.h; sourceTree = "<group>"; };
-		C075963D1A492B4600E7C7DD /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemViewController.m; sourceTree = "<group>"; };
-		C075963F1A492BD900E7C7DD /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = "<group>"; };
-		C07596401A492BD900E7C7DD /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = "<group>"; };
-		C07596421A4D0A0A00E7C7DD /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
-		C07596431A4D0A0A00E7C7DD /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
+		C06B79071AC383C10022A672 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		C06B79081AC383C10022A672 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		C06B790B1AC3DADC0022A672 /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		C06B790C1AC3DADC0022A672 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		C06B790D1AC3DADC0022A672 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		C06B790F1AC3DFB70022A672 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		C06B79111AC3DFD50022A672 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C06B79131AC3DFDD0022A672 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C06B79151AC3DFE20022A672 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C0778F2A1ABF84990070F0BD /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		C0778F2B1ABF84990070F0BD /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		C0778F2D1ABF89C90070F0BD /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
 		C0778F2E1ABF89C90070F0BD /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
 		C0778F301ABF8C230070F0BD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		C0778F311ABF8C230070F0BD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		C0778F331ABF8FE10070F0BD /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		C07880191AD6720E00FF6C10 /* ClearIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClearIcon.png; sourceTree = "<group>"; };
 		C08209A81A6398DD00DE47C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C08209AA1A639C3100DE47C3 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
-		C09A0F7E1A9283E200EF02C6 /* MyLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocationViewController.h; sourceTree = "<group>"; };
-		C09A0F7F1A9283E200EF02C6 /* MyLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocationViewController.m; sourceTree = "<group>"; };
+		C091F32E1ACD06E700CF17A8 /* delete8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete8.png; sourceTree = "<group>"; };
+		C091F3301ACD07B200CF17A8 /* WhiteDeleteIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteDeleteIcon.png; sourceTree = "<group>"; };
+		C091F3321ACD1D8D00CF17A8 /* SignUpPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpPageViewController.h; path = ../SignUpPageViewController.h; sourceTree = "<group>"; };
+		C091F3331ACD1D8D00CF17A8 /* SignUpPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpPageViewController.m; path = ../SignUpPageViewController.m; sourceTree = "<group>"; };
+		C091F3371AD09E9B00CF17A8 /* KiWiAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KiWiAppIcon.png; sourceTree = "<group>"; };
+		C091F3391AD09F4400CF17A8 /* KiWiWhiteSpaceLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KiWiWhiteSpaceLogoWhite.png; sourceTree = "<group>"; };
+		C091F33E1AD1F3B500CF17A8 /* UnlockIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnlockIcon.png; sourceTree = "<group>"; };
+		C091F33F1AD1F3B500CF17A8 /* LockIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LockIcon.png; sourceTree = "<group>"; };
+		C091F3421AD33FB400CF17A8 /* UserProfileDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserProfileDefault.png; sourceTree = "<group>"; };
+		C091F3441AD3418E00CF17A8 /* LogViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogViewCell.xib; path = ../LogViewCell.xib; sourceTree = "<group>"; };
+		C091F3461AD345F000CF17A8 /* LogViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogViewCell.h; sourceTree = "<group>"; };
+		C091F3471AD345F000CF17A8 /* LogViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogViewCell.m; sourceTree = "<group>"; };
+		C091F3491AD3725800CF17A8 /* UserSideBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserSideBarCell.h; path = ../UserSideBarCell.h; sourceTree = "<group>"; };
+		C091F34A1AD3725800CF17A8 /* UserSideBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserSideBarCell.m; path = ../UserSideBarCell.m; sourceTree = "<group>"; };
+		C091F34C1AD3729100CF17A8 /* UserSideBarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserSideBarCell.xib; path = ../UserSideBarCell.xib; sourceTree = "<group>"; };
+		C09A0F7E1A9283E200EF02C6 /* MyKiwisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyKiwisViewController.h; sourceTree = "<group>"; };
+		C09A0F7F1A9283E200EF02C6 /* MyKiwisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyKiwisViewController.m; sourceTree = "<group>"; };
 		C09A0F811A92845D00EF02C6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C09A0F831A96F66600EF02C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C0A5FCBF1AD8959500A6BB62 /* MyStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyStore.xcdatamodel; sourceTree = "<group>"; };
+		C0A5FCC11AD9C3F200A6BB62 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C0B459161A43957500BB9C64 /* KiWi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiWi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B4591A1A43957500BB9C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0B4591B1A43957500BB9C64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -75,6 +162,12 @@
 		C0B4592F1A43957500BB9C64 /* KiWiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiWiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B459341A43957500BB9C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0B459351A43957500BB9C64 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		C0D2A6391ACCFDDD00426EF4 /* LogInPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogInPageViewController.h; path = ../LogInPageViewController.h; sourceTree = "<group>"; };
+		C0D2A63A1ACCFDDD00426EF4 /* LogInPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogInPageViewController.m; path = ../LogInPageViewController.m; sourceTree = "<group>"; };
+		C0D2A63D1ACCFEE300426EF4 /* GlobalVars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GlobalVars.m; path = ../GlobalVars.m; sourceTree = "<group>"; };
+		C0D2A63F1ACCFEFE00426EF4 /* GlobalVars.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GlobalVars.h; path = ../GlobalVars.h; sourceTree = "<group>"; };
+		C0DDBCF61AEB814E00A72D94 /* TransparentToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentToolbar.h; sourceTree = "<group>"; };
+		C0DDBCF71AEB814E00A72D94 /* TransparentToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentToolbar.m; sourceTree = "<group>"; };
 		C0FEA49F1A43BD080035A53C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +176,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A5FCC21AD9C3F200A6BB62 /* CoreData.framework in Frameworks */,
+				C06B79161AC3DFE20022A672 /* Foundation.framework in Frameworks */,
+				C06B79141AC3DFDD0022A672 /* Security.framework in Frameworks */,
+				C06B79121AC3DFD50022A672 /* CFNetwork.framework in Frameworks */,
+				C06B79101AC3DFB70022A672 /* libicucore.dylib in Frameworks */,
 				C09A0F841A96F66600EF02C6 /* MapKit.framework in Frameworks */,
 				C09A0F821A92845D00EF02C6 /* CoreLocation.framework in Frameworks */,
 			);
@@ -98,6 +196,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C045EE081ACC86340073BF23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C045EE281ACC87D10073BF23 /* Image */,
+				C045EE091ACC863C0073BF23 /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C045EE091ACC863C0073BF23 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C045EE0A1ACC86690073BF23 /* Mark Simonson - Proxima Nova Black Italic.otf */,
+				C045EE0B1ACC86690073BF23 /* Mark Simonson - Proxima Nova Black.otf */,
+				C045EE0C1ACC86690073BF23 /* Mark Simonson - Proxima Nova Bold Italic.otf */,
+				C045EE0D1ACC86690073BF23 /* Mark Simonson - Proxima Nova Bold.otf */,
+				C045EE0E1ACC86690073BF23 /* Mark Simonson - Proxima Nova Extrabold Italic.otf */,
+				C045EE0F1ACC86690073BF23 /* Mark Simonson - Proxima Nova Extrabold.otf */,
+				C045EE101ACC86690073BF23 /* Mark Simonson - Proxima Nova Semibold Italic.otf */,
+				C045EE111ACC86690073BF23 /* Mark Simonson - Proxima Nova Semibold.otf */,
+				C045EE121ACC86690073BF23 /* Mark Simonson - Proxima Nova Thin Italic.otf */,
+				C045EE131ACC86690073BF23 /* Mark Simonson - Proxima Nova Thin.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		C045EE281ACC87D10073BF23 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C0383A431AECBAAC00F4E09E /* logo-6withoutlettersmediumres.png */,
+				C0383A411AECB88B00F4E09E /* newlogo.png */,
+				C091F3421AD33FB400CF17A8 /* UserProfileDefault.png */,
+				C091F33E1AD1F3B500CF17A8 /* UnlockIcon.png */,
+				C091F33F1AD1F3B500CF17A8 /* LockIcon.png */,
+				C091F3391AD09F4400CF17A8 /* KiWiWhiteSpaceLogoWhite.png */,
+				C091F3371AD09E9B00CF17A8 /* KiWiAppIcon.png */,
+				C0383A491AECBF8E00F4E09E /* logo-6appicon.png */,
+				C0383A4D1AEDD52600F4E09E /* 2pxWidthLineImage.png */,
+				C0383A581AEDFB6000F4E09E /* key83.png */,
+				C07880191AD6720E00FF6C10 /* ClearIcon.png */,
+				C0383A5A1AEDFD1200F4E09E /* keys.png */,
+				C0383A511AEDF41700F4E09E /* backward4.png */,
+				C0383A461AECBB5C00F4E09E /* logo-6withoutlettershighres.png */,
+				C0383A4B1AEDD20A00F4E09E /* UserProfileDefaultDark.png */,
+				C091F3301ACD07B200CF17A8 /* WhiteDeleteIcon.png */,
+				C091F32E1ACD06E700CF17A8 /* delete8.png */,
+				C045EE2B1ACC88770073BF23 /* KiWiWhiteSpacePinkLogo.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		C06B790A1AC3DAC30022A672 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				C06B790B1AC3DADC0022A672 /* SocketRocket-Prefix.pch */,
+				C06B790C1AC3DADC0022A672 /* SRWebSocket.h */,
+				C06B790D1AC3DADC0022A672 /* SRWebSocket.m */,
+			);
+			name = SocketRocket;
+			sourceTree = "<group>";
+		};
 		C0778F291ABF83E00070F0BD /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,13 +269,15 @@
 		C0B4590D1A43957500BB9C64 = {
 			isa = PBXGroup;
 			children = (
-				C062A2541ABFD18100BD85C6 /* Menu-50.png */,
-				C062A2521ABFD00C00BD85C6 /* menu2x.png */,
-				C0778F331ABF8FE10070F0BD /* menu.png */,
-				C0514F851AAD1AC400605BB7 /* KiWiLogo.png */,
-				C0514F871AAD23FF00605BB7 /* KiWiLogoWhite.png */,
+				C0A5FCC11AD9C3F200A6BB62 /* CoreData.framework */,
+				C045EE081ACC86340073BF23 /* Resources */,
+				C06B79151AC3DFE20022A672 /* Foundation.framework */,
+				C06B79131AC3DFDD0022A672 /* Security.framework */,
+				C06B79111AC3DFD50022A672 /* CFNetwork.framework */,
+				C06B790F1AC3DFB70022A672 /* libicucore.dylib */,
 				C09A0F831A96F66600EF02C6 /* MapKit.framework */,
 				C09A0F811A92845D00EF02C6 /* CoreLocation.framework */,
+				C062A2541ABFD18100BD85C6 /* Menu-50.png */,
 				C0B459181A43957500BB9C64 /* KiWi */,
 				C0B459321A43957500BB9C64 /* KiWiTests */,
 				C0B459171A43957500BB9C64 /* Products */,
@@ -135,6 +296,19 @@
 		C0B459181A43957500BB9C64 /* KiWi */ = {
 			isa = PBXGroup;
 			children = (
+				C091F34C1AD3729100CF17A8 /* UserSideBarCell.xib */,
+				C091F3491AD3725800CF17A8 /* UserSideBarCell.h */,
+				C091F34A1AD3725800CF17A8 /* UserSideBarCell.m */,
+				C091F3441AD3418E00CF17A8 /* LogViewCell.xib */,
+				C091F3321ACD1D8D00CF17A8 /* SignUpPageViewController.h */,
+				C091F3331ACD1D8D00CF17A8 /* SignUpPageViewController.m */,
+				C0D2A63F1ACCFEFE00426EF4 /* GlobalVars.h */,
+				C0D2A63D1ACCFEE300426EF4 /* GlobalVars.m */,
+				C0D2A6391ACCFDDD00426EF4 /* LogInPageViewController.h */,
+				C0D2A63A1ACCFDDD00426EF4 /* LogInPageViewController.m */,
+				C045EE2D1ACC8A0B0073BF23 /* WelcomeViewController.h */,
+				C045EE2E1ACC8A0B0073BF23 /* WelcomeViewController.m */,
+				C06B790A1AC3DAC30022A672 /* SocketRocket */,
 				C0778F301ABF8C230070F0BD /* MainViewController.h */,
 				C0778F311ABF8C230070F0BD /* MainViewController.m */,
 				C0778F2D1ABF89C90070F0BD /* SidebarViewController.h */,
@@ -142,20 +316,26 @@
 				C0778F291ABF83E00070F0BD /* SWRevealViewController */,
 				C0B4591D1A43957500BB9C64 /* AppDelegate.h */,
 				C0B4591E1A43957500BB9C64 /* AppDelegate.m */,
-				C075963C1A492B4600E7C7DD /* AddToDoItemViewController.h */,
-				C075963D1A492B4600E7C7DD /* AddToDoItemViewController.m */,
 				C0FEA49F1A43BD080035A53C /* Main.storyboard */,
 				C0B459191A43957500BB9C64 /* Supporting Files */,
-				C075963F1A492BD900E7C7DD /* ToDoListTableViewController.h */,
-				C07596401A492BD900E7C7DD /* ToDoListTableViewController.m */,
-				C07596421A4D0A0A00E7C7DD /* ToDoItem.h */,
-				C07596431A4D0A0A00E7C7DD /* ToDoItem.m */,
 				C08209A81A6398DD00DE47C3 /* Images.xcassets */,
 				C08209AA1A639C3100DE47C3 /* Launch Screen.xib */,
-				C06530531A91799D003AFFE0 /* ToDoListViewController.h */,
-				C06530541A91799D003AFFE0 /* ToDoListViewController.m */,
-				C09A0F7E1A9283E200EF02C6 /* MyLocationViewController.h */,
-				C09A0F7F1A9283E200EF02C6 /* MyLocationViewController.m */,
+				C09A0F7E1A9283E200EF02C6 /* MyKiwisViewController.h */,
+				C09A0F7F1A9283E200EF02C6 /* MyKiwisViewController.m */,
+				C06B79071AC383C10022A672 /* AccountViewController.h */,
+				C06B79081AC383C10022A672 /* AccountViewController.m */,
+				C091F3461AD345F000CF17A8 /* LogViewCell.h */,
+				C091F3471AD345F000CF17A8 /* LogViewCell.m */,
+				C03163381AD60F8800848FFF /* SettingsViewController.h */,
+				C03163391AD60F8800848FFF /* SettingsViewController.m */,
+				C0A5FCBE1AD8959500A6BB62 /* MyStore.xcdatamodeld */,
+				C0DDBCF61AEB814E00A72D94 /* TransparentToolbar.h */,
+				C0DDBCF71AEB814E00A72D94 /* TransparentToolbar.m */,
+				C0383A531AEDF4D100F4E09E /* ShareKeyViewController.h */,
+				C0383A541AEDF4D100F4E09E /* ShareKeyViewController.m */,
+				C0383A561AEDF7B100F4E09E /* FriendListCell.xib */,
+				C0383A5C1AEDFEAF00F4E09E /* FriendListCell.h */,
+				C0383A5D1AEDFEAF00F4E09E /* FriendListCell.m */,
 			);
 			name = KiWi;
 			path = ToDoList;
@@ -269,15 +449,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C091F3381AD09E9B00CF17A8 /* KiWiAppIcon.png in Resources */,
 				C08209A91A6398DD00DE47C3 /* Images.xcassets in Resources */,
+				C045EE221ACC86710073BF23 /* Mark Simonson - Proxima Nova Extrabold Italic.otf in Resources */,
+				C045EE271ACC86710073BF23 /* Mark Simonson - Proxima Nova Thin.otf in Resources */,
 				C08209A31A625E9F00DE47C3 /* Info.plist in Resources */,
-				C0514F881AAD23FF00605BB7 /* KiWiLogoWhite.png in Resources */,
+				C091F34D1AD3729100CF17A8 /* UserSideBarCell.xib in Resources */,
+				C078801A1AD6720E00FF6C10 /* ClearIcon.png in Resources */,
+				C091F3401AD1F3B500CF17A8 /* UnlockIcon.png in Resources */,
+				C091F3431AD33FB400CF17A8 /* UserProfileDefault.png in Resources */,
 				C0FEA4A01A43BD080035A53C /* Main.storyboard in Resources */,
-				C0778F341ABF8FE10070F0BD /* menu.png in Resources */,
+				C0383A441AECBAAC00F4E09E /* logo-6withoutlettersmediumres.png in Resources */,
+				C0383A5B1AEDFD1200F4E09E /* keys.png in Resources */,
+				C045EE231ACC86710073BF23 /* Mark Simonson - Proxima Nova Extrabold.otf in Resources */,
+				C0383A4C1AEDD20A00F4E09E /* UserProfileDefaultDark.png in Resources */,
+				C0383A4E1AEDD52600F4E09E /* 2pxWidthLineImage.png in Resources */,
+				C0383A471AECBB5C00F4E09E /* logo-6withoutlettershighres.png in Resources */,
+				C091F33A1AD09F4400CF17A8 /* KiWiWhiteSpaceLogoWhite.png in Resources */,
 				C062A2551ABFD18100BD85C6 /* Menu-50.png in Resources */,
-				C062A2531ABFD00C00BD85C6 /* menu2x.png in Resources */,
-				C0514F861AAD1AC400605BB7 /* KiWiLogo.png in Resources */,
+				C045EE261ACC86710073BF23 /* Mark Simonson - Proxima Nova Thin Italic.otf in Resources */,
+				C0383A4A1AECBF8E00F4E09E /* logo-6appicon.png in Resources */,
+				C045EE251ACC86710073BF23 /* Mark Simonson - Proxima Nova Semibold.otf in Resources */,
+				C0383A521AEDF41700F4E09E /* backward4.png in Resources */,
+				C045EE211ACC86710073BF23 /* Mark Simonson - Proxima Nova Bold.otf in Resources */,
+				C045EE201ACC86710073BF23 /* Mark Simonson - Proxima Nova Bold Italic.otf in Resources */,
+				C0383A571AEDF7B100F4E09E /* FriendListCell.xib in Resources */,
+				C0383A421AECB88B00F4E09E /* newlogo.png in Resources */,
+				C091F32F1ACD06E700CF17A8 /* delete8.png in Resources */,
+				C045EE1F1ACC86710073BF23 /* Mark Simonson - Proxima Nova Black.otf in Resources */,
 				C08209AB1A639C3100DE47C3 /* Launch Screen.xib in Resources */,
+				C0383A591AEDFB6000F4E09E /* key83.png in Resources */,
+				C045EE2C1ACC88770073BF23 /* KiWiWhiteSpacePinkLogo.png in Resources */,
+				C091F3311ACD07B200CF17A8 /* WhiteDeleteIcon.png in Resources */,
+				C045EE241ACC86710073BF23 /* Mark Simonson - Proxima Nova Semibold Italic.otf in Resources */,
+				C091F3451AD3418E00CF17A8 /* LogViewCell.xib in Resources */,
+				C045EE1E1ACC86710073BF23 /* Mark Simonson - Proxima Nova Black Italic.otf in Resources */,
+				C091F3411AD1F3B500CF17A8 /* LockIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +492,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0383A451AECBAAC00F4E09E /* logo-6withoutlettersmediumres.png in Resources */,
+				C0383A481AECBB5C00F4E09E /* logo-6withoutlettershighres.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,16 +504,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C06B790E1AC3DADC0022A672 /* SRWebSocket.m in Sources */,
+				C0A5FCC01AD8959500A6BB62 /* MyStore.xcdatamodeld in Sources */,
 				C0778F2F1ABF89C90070F0BD /* SidebarViewController.m in Sources */,
-				C06530551A91799D003AFFE0 /* ToDoListViewController.m in Sources */,
+				C091F3481AD345F000CF17A8 /* LogViewCell.m in Sources */,
 				C0B4591F1A43957500BB9C64 /* AppDelegate.m in Sources */,
+				C031633A1AD60F8800848FFF /* SettingsViewController.m in Sources */,
+				C0383A551AEDF4D100F4E09E /* ShareKeyViewController.m in Sources */,
+				C0D2A63E1ACCFEE300426EF4 /* GlobalVars.m in Sources */,
+				C0383A5E1AEDFEAF00F4E09E /* FriendListCell.m in Sources */,
 				C0778F321ABF8C230070F0BD /* MainViewController.m in Sources */,
-				C07596441A4D0A0A00E7C7DD /* ToDoItem.m in Sources */,
+				C045EE2F1ACC8A0B0073BF23 /* WelcomeViewController.m in Sources */,
+				C0D2A63B1ACCFDDD00426EF4 /* LogInPageViewController.m in Sources */,
+				C06B79091AC383C10022A672 /* AccountViewController.m in Sources */,
 				C0778F2C1ABF84990070F0BD /* SWRevealViewController.m in Sources */,
-				C07596411A492BD900E7C7DD /* ToDoListTableViewController.m in Sources */,
+				C0DDBCF81AEB814E00A72D94 /* TransparentToolbar.m in Sources */,
 				C0B4591C1A43957500BB9C64 /* main.m in Sources */,
-				C075963E1A492B4600E7C7DD /* AddToDoItemViewController.m in Sources */,
-				C09A0F801A9283E200EF02C6 /* MyLocationViewController.m in Sources */,
+				C091F34B1AD3725800CF17A8 /* UserSideBarCell.m in Sources */,
+				C091F3341ACD1D8D00CF17A8 /* SignUpPageViewController.m in Sources */,
+				C09A0F801A9283E200EF02C6 /* MyKiwisViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +628,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ToDoList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = KiWi;
 				PROVISIONING_PROFILE = "";
@@ -423,6 +642,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ToDoList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = KiWi;
 				PROVISIONING_PROFILE = "";
@@ -494,6 +714,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0A5FCBE1AD8959500A6BB62 /* MyStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0A5FCBF1AD8959500A6BB62 /* MyStore.xcdatamodel */,
+			);
+			currentVersion = C0A5FCBF1AD8959500A6BB62 /* MyStore.xcdatamodel */;
+			path = MyStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C0B4590E1A43957500BB9C64 /* Project object */;
 }
