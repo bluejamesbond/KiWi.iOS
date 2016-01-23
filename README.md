@@ -3,4 +3,4 @@ KiWi.iOS
 
 The iOS app for the KiWi Deadbolt Smart Lock System
 
-_**built by love by Kapil Gowru**_
+_**built with love by Kapil Gowru**_
